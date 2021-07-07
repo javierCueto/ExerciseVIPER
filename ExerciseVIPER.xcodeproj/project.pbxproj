@@ -13,10 +13,18 @@
 		454A6E9D2694D207002B2E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454A6E9B2694D207002B2E6A /* Main.storyboard */; };
 		454A6E9F2694D20B002B2E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454A6E9E2694D20B002B2E6A /* Assets.xcassets */; };
 		454A6EA22694D20B002B2E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454A6EA02694D20B002B2E6A /* LaunchScreen.storyboard */; };
+		454A6EB02694D6CC002B2E6A /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A6EA92694D6CC002B2E6A /* HomePresenter.swift */; };
+		454A6EB12694D6CC002B2E6A /* HomeLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A6EAA2694D6CC002B2E6A /* HomeLocalDataManager.swift */; };
+		454A6EB22694D6CC002B2E6A /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A6EAB2694D6CC002B2E6A /* HomeProtocols.swift */; };
+		454A6EB32694D6CC002B2E6A /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A6EAC2694D6CC002B2E6A /* HomeInteractor.swift */; };
+		454A6EB42694D6CC002B2E6A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A6EAD2694D6CC002B2E6A /* HomeView.swift */; };
+		454A6EB52694D6CC002B2E6A /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A6EAE2694D6CC002B2E6A /* HomeRemoteDataManager.swift */; };
+		454A6EB62694D6CC002B2E6A /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A6EAF2694D6CC002B2E6A /* HomeWireFrame.swift */; };
+		454A6EB92694F897002B2E6A /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454A6EB82694F896002B2E6A /* HomeView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		454A6E922694D207002B2E6A /* ExerciceVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciceVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		454A6E922694D207002B2E6A /* ExerciseVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454A6E952694D207002B2E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		454A6E972694D207002B2E6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		454A6E992694D207002B2E6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		454A6E9E2694D20B002B2E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		454A6EA12694D20B002B2E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		454A6EA32694D20B002B2E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454A6EA92694D6CC002B2E6A /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		454A6EAA2694D6CC002B2E6A /* HomeLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocalDataManager.swift; sourceTree = "<group>"; };
+		454A6EAB2694D6CC002B2E6A /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		454A6EAC2694D6CC002B2E6A /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		454A6EAD2694D6CC002B2E6A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		454A6EAE2694D6CC002B2E6A /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
+		454A6EAF2694D6CC002B2E6A /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
+		454A6EB82694F896002B2E6A /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +56,7 @@
 		454A6E892694D207002B2E6A = {
 			isa = PBXGroup;
 			children = (
-				454A6E942694D207002B2E6A /* ExerciceVIPER */,
+				454A6E942694D207002B2E6A /* ExerciseVIPER */,
 				454A6E932694D207002B2E6A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +64,12 @@
 		454A6E932694D207002B2E6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				454A6E922694D207002B2E6A /* ExerciceVIPER.app */,
+				454A6E922694D207002B2E6A /* ExerciseVIPER.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		454A6E942694D207002B2E6A /* ExerciceVIPER */ = {
+		454A6E942694D207002B2E6A /* ExerciseVIPER */ = {
 			isa = PBXGroup;
 			children = (
 				454A6E952694D207002B2E6A /* AppDelegate.swift */,
@@ -63,16 +79,32 @@
 				454A6E9E2694D20B002B2E6A /* Assets.xcassets */,
 				454A6EA02694D20B002B2E6A /* LaunchScreen.storyboard */,
 				454A6EA32694D20B002B2E6A /* Info.plist */,
+				454A6EB72694D6F4002B2E6A /* HomeView */,
 			);
-			path = ExerciceVIPER;
+			path = ExerciseVIPER;
+			sourceTree = "<group>";
+		};
+		454A6EB72694D6F4002B2E6A /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				454A6EAC2694D6CC002B2E6A /* HomeInteractor.swift */,
+				454A6EAF2694D6CC002B2E6A /* HomeWireFrame.swift */,
+				454A6EAB2694D6CC002B2E6A /* HomeProtocols.swift */,
+				454A6EAA2694D6CC002B2E6A /* HomeLocalDataManager.swift */,
+				454A6EA92694D6CC002B2E6A /* HomePresenter.swift */,
+				454A6EAE2694D6CC002B2E6A /* HomeRemoteDataManager.swift */,
+				454A6EAD2694D6CC002B2E6A /* HomeView.swift */,
+				454A6EB82694F896002B2E6A /* HomeView.storyboard */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		454A6E912694D207002B2E6A /* ExerciceVIPER */ = {
+		454A6E912694D207002B2E6A /* ExerciseVIPER */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 454A6EA62694D20B002B2E6A /* Build configuration list for PBXNativeTarget "ExerciceVIPER" */;
+			buildConfigurationList = 454A6EA62694D20B002B2E6A /* Build configuration list for PBXNativeTarget "ExerciseVIPER" */;
 			buildPhases = (
 				454A6E8E2694D207002B2E6A /* Sources */,
 				454A6E8F2694D207002B2E6A /* Frameworks */,
@@ -82,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = ExerciceVIPER;
-			productName = ExerciceVIPER;
-			productReference = 454A6E922694D207002B2E6A /* ExerciceVIPER.app */;
+			name = ExerciseVIPER;
+			productName = ExerciseVIPER;
+			productReference = 454A6E922694D207002B2E6A /* ExerciseVIPER.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 454A6E8D2694D207002B2E6A /* Build configuration list for PBXProject "ExerciceVIPER" */;
+			buildConfigurationList = 454A6E8D2694D207002B2E6A /* Build configuration list for PBXProject "ExerciseVIPER" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				454A6E912694D207002B2E6A /* ExerciceVIPER */,
+				454A6E912694D207002B2E6A /* ExerciseVIPER */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +158,7 @@
 			files = (
 				454A6EA22694D20B002B2E6A /* LaunchScreen.storyboard in Resources */,
 				454A6E9F2694D20B002B2E6A /* Assets.xcassets in Resources */,
+				454A6EB92694F897002B2E6A /* HomeView.storyboard in Resources */,
 				454A6E9D2694D207002B2E6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +172,14 @@
 			files = (
 				454A6E9A2694D207002B2E6A /* ViewController.swift in Sources */,
 				454A6E962694D207002B2E6A /* AppDelegate.swift in Sources */,
+				454A6EB12694D6CC002B2E6A /* HomeLocalDataManager.swift in Sources */,
 				454A6E982694D207002B2E6A /* SceneDelegate.swift in Sources */,
+				454A6EB22694D6CC002B2E6A /* HomeProtocols.swift in Sources */,
+				454A6EB42694D6CC002B2E6A /* HomeView.swift in Sources */,
+				454A6EB52694D6CC002B2E6A /* HomeRemoteDataManager.swift in Sources */,
+				454A6EB02694D6CC002B2E6A /* HomePresenter.swift in Sources */,
+				454A6EB32694D6CC002B2E6A /* HomeInteractor.swift in Sources */,
+				454A6EB62694D6CC002B2E6A /* HomeWireFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +328,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNSM43P2F3;
-				INFOPLIST_FILE = ExerciceVIPER/Info.plist;
+				INFOPLIST_FILE = ExerciseVIPER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.javiercueto.ExerciceVIPER;
+				PRODUCT_BUNDLE_IDENTIFIER = com.javiercueto.ExerciseVIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +347,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNSM43P2F3;
-				INFOPLIST_FILE = ExerciceVIPER/Info.plist;
+				INFOPLIST_FILE = ExerciseVIPER/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.javiercueto.ExerciceVIPER;
+				PRODUCT_BUNDLE_IDENTIFIER = com.javiercueto.ExerciseVIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		454A6E8D2694D207002B2E6A /* Build configuration list for PBXProject "ExerciceVIPER" */ = {
+		454A6E8D2694D207002B2E6A /* Build configuration list for PBXProject "ExerciseVIPER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				454A6EA42694D20B002B2E6A /* Debug */,
@@ -331,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		454A6EA62694D20B002B2E6A /* Build configuration list for PBXNativeTarget "ExerciceVIPER" */ = {
+		454A6EA62694D20B002B2E6A /* Build configuration list for PBXNativeTarget "ExerciseVIPER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				454A6EA72694D20B002B2E6A /* Debug */,
